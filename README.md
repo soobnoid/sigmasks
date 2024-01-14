@@ -5,7 +5,7 @@ Tool for generating and embeding AoB signatures into other binaries. the `sigmas
 The program also scans the binary to ensure the AoB is unique.
 
 The header also exports a `sigcontainer` class with useful overloads,
-if you're application needs to manage a large number of dynamically generated sigs.
+if your application needs to manage a number of dynamically generated sigs.
 
 ## dependancies 
 * Zydis Dissasembler
