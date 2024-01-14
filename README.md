@@ -1,4 +1,4 @@
-# sigmasks, C++ AoB signature tracking/generation utility
+# A C++ AoB signature tracking/generation utility
 
 Tool for generating and embeding AoB signatures into other binaries. the `sigmask` class can be initialized as a `constexpr` meaning you can construct during build-time it in your code. The tool iterates over each byte in the x64 instruction encoding of a specified address and marks bytes which may change when the binary is recompiled (offsets) as "wildcard" bytes, allowing it to automatically create the signature.
 
